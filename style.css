@@ -251,10 +251,11 @@ footer .linha2 a:hover{
   #principal{
     flex-direction: column;
     height: auto;
+
   }
   #menu{
     flex-direction: column;
-    width: 100px;
+    width: 100%;
     margin: 0px;
   }
   menu a{
@@ -280,6 +281,14 @@ footer .linha2 a:hover{
   }
   .checkbox-intens label{
     font-size: 17px;
+  }
+
+  footer .linha1{
+   flex-direction: column;
+  }
+  footer.endereço{
+    width: 95%;
+    margin-bottom: 25px;
   }
 }
   
